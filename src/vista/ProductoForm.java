@@ -272,8 +272,8 @@ public class ProductoForm extends javax.swing.JFrame {
         if(fila>=0){
             dao.eliminar(fila);
             limpiar();
-            limpiartabla();
             llenardatos();
+            
         }else{
             JOptionPane.showMessageDialog(rootPane,"Seleccionar Flia");
         }
